@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.right-side{
+  display: flex;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav > .right-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid white
+}
+
+.nav-link-wrapper a:hover {
+  color: wheat
+}
+
+.budget {
+  line-height: 3rem;
+  font-size: 1.3rem;
+  color: #02060a;
+  font-weight: bold;
+
+} 
+
+.logo {
+  line-height: 3rem;
+  font-weight: bold;
+  color: red;
+}
+
+*{
+  text-decoration: none;
+  font-family: 'Cinzel Decorative'
+}
+
+#home-background{
+  background-image: url(https://ae01.alicdn.com/kf/HTB10DTCajnuK1RkSmFPq6AuzFXaL/7x5FT-4-Styles-Jumanji-Welcome-to-the-Jungle-Custom-Photo-Studio-Background-Backdrop-Vinyl-220cm-x.jpg_960x960.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
