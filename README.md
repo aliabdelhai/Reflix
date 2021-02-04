@@ -10,9 +10,17 @@ works with external api.
 ---
 ## [Try it🍿]
 
-### to run on local host
+## How to Use
 
-run command : `npm start`
+(assuming you have [nodejs](https://nodejs.org/en/) installed)
+
+1. clone the repo
+
+2. run `npm install` in your terminal
+
+3. run `npm start`
+
+4. open `http://localhost:3000` in your browser.
 
 ---
 
